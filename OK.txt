@@ -1,9 +1,19 @@
 
     Dashrat Singh Rajpurohit From Jodhpur
-    abcd
-    ok 
-    all
-    in 
-    one
-    ok Changes
-    hogaya
+    Do you mean you want me to **write a personal description** (about you, your journey, skills, and goals), or do you want me to **summarize your profile** based on what I already know about you?
+
+👉 Here’s a draft description I can make for you based on what I know so far:
+
+---
+
+✨ **About Me – Dashrat Singh Rajpurohit**
+
+I am a passionate **B.Tech student at Swaminarayan University × CodingGita, Kalol, Gujarat**, currently building my journey toward becoming a **Software Engineer**. With a strong interest in **Full Stack Development** and **Artificial Intelligence**, I am focused on sharpening my programming, problem-solving, and design skills.
+
+I recently completed **Class 12 with 82.2%** and started exploring the world of coding deeply. I believe in continuous learning, discipline, and practical application of knowledge.
+
+💡 My vision is to grow as a **skilled developer**, contribute to **real-world projects**, and one day work on innovative technologies that make life easier and smarter.
+
+---
+
+Would you like me to make this description **short and professional for LinkedIn/Resume**, or **more creative and inspiring for Instagram/Portfolio**?
