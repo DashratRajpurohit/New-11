@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dashrat Singh Rajpurohit — Developer Portfolio</title>
+  <link rel="stylesheet" href="Portfolio.css">
+  <meta name="description" content="Dashrat Singh Rajpurohit — Full Stack Developer & AI enthusiast.">
+</head>
+<body class="no-js">
+  <!-- Decorative animated background -->
+  <div class="bg-wrap" aria-hidden="true">
+    <div class="nebula"></div>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="float-stars"></div>
+  </div>
+
+  <header class="site-header" id="top">
+    <nav class="nav">
+      <a class="logo" href="#top">Dashrat<span class="dot">.</span></a>
+      <ul class="nav-list" role="menubar" aria-label="Main">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="cta" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Hire Me</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="hero" aria-labelledby="hero-title">
+      <div class="hero-left">
+        <h1 id="hero-title" class="title">
+          Hey — I'm <span class="name">Dashrat Singh Rajpurohit</span>
+        </h1>
+        <p class="tagline">Full-Stack Developer • AI Enthusiast • Building fast, beautiful & reliable things</p>
+
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#projects">View Projects</a>
+          <a class="btn btn-ghost" href="resume.pdf" download>Download Resume</a>
+        </div>
+
+        <div class="stats">
+          <div class="stat">
+            <div class="num" data-count="5">5+</div>
+            <div class="label">Projects</div>
+          </div>
+          <div class="stat">
+            <div class="num" data-count="2">2+</div>
+            <div class="label">Years Learning</div>
+          </div>
+          <div class="stat">
+            <div class="num" data-count="1">1</div>
+            <div class="label">B.Tech (ongoing)</div>
+          </div>
+        </div>
+      </div>
+
+      <aside class="hero-card" aria-hidden="false">
+        <div class="device">
+          <div class="screen">
+            <div class="typing">
+              <span class="type-text" data-text='["const hello = \"Hello world\";","console.log(hello);","// I build web apps & AI prototypes"]'></span>
+              <span class="cursor">┃</span>
+            </div>
+            <div class="code-pulse"></div>
+          </div>
+          <div class="device-stand"></div>
+        </div>
+        <div class="floating-badge">Available for hire</div>
+      </aside>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section about">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <p class="about-text">
+          I’m a B.Tech student at Swaminarayan University × CodingGita with a relentless curiosity for building robust full-stack applications and experimenting with AI. I love creating elegant UI, clean APIs, and models that solve real problems. Outside code — I read about algorithms, play with side projects, and obsess over performance.
+        </p>
+
+        <ul class="about-list">
+          <li><strong>Location:</strong> Kalol, Gujarat</li>
+          <li><strong>Education:</strong> B.Tech (ongoing)</li>
+          <li><strong>Interests:</strong> Web, Node, React, Python, ML</li>
+          <li><strong>Contact:</strong> dashrat@example.com</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section skills">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Frontend</h3>
+          <p>HTML · CSS · JS · React · Tailwind</p>
+          <div class="meter"><span style="width:90%"></span></div>
+        </div>
+        <div class="skill-card">
+          <h3>Backend</h3>
+          <p>Node.js · Express · MongoDB · REST</p>
+          <div class="meter"><span style="width:80%"></span></div>
+        </div>
+        <div class="skill-card">
+          <h3>AI / ML</h3>
+          <p>Python · NumPy · scikit-learn · Transformers</p>
+          <div class="meter"><span style="width:60%"></span></div>
+        </div>
+        <div class="skill-card">
+          <h3>Tools</h3>
+          <p>Git · Docker · VSCode · CI/CD</p>
+          <div class="meter"><span style="width:75%"></span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section projects">
+      <h2 class="section-title">Selected Projects</h2>
+      <div class="projects-grid">
+        <!-- Project 1: 3D flip card -->
+        <article class="project-card interactive" tabindex="0" aria-label="Portfolio project: Personal Portfolio Website">
+          <div class="card-inner">
+            <div class="card-front">
+              <h3>Personal Portfolio</h3>
+              <p>React + Vite, animated UI, deployed on Netlify.</p>
+              <div class="project-tags">React · CSS · Deployment</div>
+            </div>
+            <div class="card-back">
+              <p>Built a fast portfolio with animations, accessible markup, and a custom CMS hook.</p>
+              <a class="btn small" href="#" aria-label="Open project details">Open</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card interactive" tabindex="0" aria-label="Portfolio project: Mini E-commerce">
+          <div class="card-inner">
+            <div class="card-front">
+              <h3>Mini E-commerce</h3>
+              <p>Node + Express backend, cart and checkout flow.</p>
+              <div class="project-tags">Node · MongoDB · Stripe</div>
+            </div>
+            <div class="card-back">
+              <p>Implemented product catalog, payment integration and admin panel.</p>
+              <a class="btn small" href="#">Open</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card interactive" tabindex="0" aria-label="Portfolio project: Chatbot Prototype">
+          <div class="card-inner">
+            <div class="card-front">
+              <h3>AI Chatbot Prototype</h3>
+              <p>Python + NLP, retrieval + small LLM orchestration.</p>
+              <div class="project-tags">Python · NLP · Flask</div>
+            </div>
+            <div class="card-back">
+              <p>Prototype with embeddings and simple intent-handling for FAQs.</p>
+              <a class="btn small" href="#">Open</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Add more project cards as needed -->
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <h2 class="section-title">Get in Touch</h2>
+      <div class="contact-grid">
+        <form class="contact-form" action="mailto:dashrat@example.com" method="post" enctype="text/plain" aria-label="Contact form">
+          <label><span>Name</span><input type="text" name="name" required></label>
+          <label><span>Email</span><input type="email" name="email" required></label>
+          <label><span>Message</span><textarea name="message" rows="5" required></textarea></label>
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary">Send Message</button>
+            <button type="reset" class="btn btn-ghost">Reset</button>
+          </div>
+        </form>
+
+        <aside class="contact-info" aria-labelledby="contact-heading">
+          <h3 id="contact-heading">Let's build something</h3>
+          <p>Email me at <a href="mailto:dashrat@example.com">dashrat@example.com</a></p>
+          <p>Check my GitHub: <a href="https://github.com/yourusername" target="_blank" rel="noopener">github.com/yourusername</a></p>
+          <div class="socials">
+            <a class="social" href="#"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M22 12..."/></svg>LinkedIn</a>
+            <a class="social" href="#"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M22 12..."/></svg>GitHub</a>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <small>© <span id="year"></span> Dashrat Singh Rajpurohit — Crafted with ❤️</small>
+  </footer>
+
+  <!-- Minimal inline script for small interactivity (typing, counters) -->
+  <script>
+    document.body.classList.remove('no-js');
+
+    // year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Typing effect (reads data-text array)
+    (function typeSequence(){
+      const el = document.querySelector('.type-text');
+      if(!el) return;
+      const items = JSON.parse(el.getAttribute('data-text'));
+      let i = 0, j = 0, forward = true;
+      const cursor = document.querySelector('.cursor');
+      function tick() {
+        const current = items[i];
+        el.textContent = current.slice(0, j);
+        if(forward) j++; else j--;
+        if(j > current.length) { forward = false; setTimeout(tick, 1000); } 
+        else if (j < 0) { forward = true; i = (i+1)%items.length; j = 0; setTimeout(tick, 200); }
+        else setTimeout(tick, 55);
+      }
+      tick();
+      // blinking cursor
+      setInterval(()=>cursor.style.opacity = (cursor.style.opacity==='0'? '1':'0'), 500);
+    })();
+
+    // Simple stat counters (will animate once in view)
+    (function counters(){
+      const nums = document.querySelectorAll('.stat .num');
+      const run = (el, to)=> {
+        let cur = 0, step = Math.max(1, Math.floor(to/40));
+        const t = setInterval(()=> {
+          cur += step;
+          if(cur >= to) { el.textContent = to + (to % 1 === 0 ? '' : ''); clearInterval(t); }
+          else el.textContent = cur + (to % 1 === 0 ? '' : '');
+        }, 23);
+      };
+      const obs = new IntersectionObserver((entries, o)=>{
+        entries.forEach(e=>{
+          if(e.isIntersecting){
+            nums.forEach(n=> run(n, parseInt(n.getAttribute('data-count') || n.textContent) ));
+            o.disconnect();
+          }
+        });
+      }, {threshold:0.4});
+      if(nums.length) obs.observe(nums[0]);
+    })();
+
+    // 3D card tilt on mouse
+    document.querySelectorAll('.interactive').forEach(card=>{
+      card.addEventListener('mousemove', e=>{
+        const rect = card.getBoundingClientRect();
+        const dx = e.clientX - rect.left - rect.width/2;
+        const dy = e.clientY - rect.top - rect.height/2;
+        const rx = (-dy / rect.height) * 12;
+        const ry = (dx / rect.width) * 12;
+        card.style.setProperty('--rx', rx.toFixed(2) + 'deg');
+        card.style.setProperty('--ry', ry.toFixed(2) + 'deg');
+      });
+      card.addEventListener('mouseleave', ()=> {
+        card.style.setProperty('--rx', '0deg');
+        card.style.setProperty('--ry', '0deg');
+      });
+      card.addEventListener('focus', ()=> card.classList.add('focus'));
+      card.addEventListener('blur', ()=> card.classList.remove('focus'));
+    });
+  </script>
+</body>
+</html>
